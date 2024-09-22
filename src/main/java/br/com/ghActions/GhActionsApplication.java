@@ -11,6 +11,11 @@ public class GhActionsApplication {
 
 	@GetMapping
 	public String home() {
+		System.out.println("""
+				------------------
+				HELLO WORLD !!!
+				------------------
+				""");
 		return "<h1>Hello World!</h1>";
 	}
 
